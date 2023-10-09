@@ -1,1 +1,23 @@
-h1 {color: blue;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {width: 100%;
+       background-image: url(img/pattern.png);
+}
+
+.header-mask {
+    background-color: rgba(48, 48, 252, 0.274);
+    width: 100%;
+}
+
+header, .header-mask {
+    height: 120px;
+}
+
+header img {
+    width: 12%;
+    margin-top: 60px;
+    margin-left: 10px;
+}
