@@ -1,18 +1,27 @@
+/* Regole generali di formattazione */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Formattazione dell'Header e delle sue parti: Top/Bottom */
+
 header {width: 100%;
        background-image: url(img/pattern.png);
+       display: inline-block;
 }
 
-.header-mask {
+.header-top {
     background-color: rgba(48, 48, 252, 0.274);
-    width: 100%;
 }
 
-header, .header-mask {
+header, .header-top {
     height: 120px;
 }
 
@@ -20,4 +29,43 @@ header img {
     width: 12%;
     margin-top: 60px;
     margin-left: 10px;
+}
+
+.header-top, .header-bottom {
+    width: 100%;
+}
+
+/* Stile Titolo Principale */
+
+h1 {
+    font-size: 50px;
+    font-family: 'Young Serif', serif;
+}
+
+.text-lightblue {
+    color: rgb(119, 195, 221);
+    display: inline-block;
+    font-size: large;
+}
+
+.data {
+    font-size: 12px;
+}
+
+.marker {
+    background-color: yellow;
+}
+
+.photocredits {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.top-photogallery {
+    margin-top: 20px;
+}
+
+.paragraph {
+     margin-top: 15px;
+     margin-bottom: 15px;
 }
