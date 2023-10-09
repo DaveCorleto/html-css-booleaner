@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+
 }
 
 :root {
@@ -26,12 +26,12 @@ header, .header-top {
 }
 
 header img {
-    width: 12%;
-    margin-top: 60px;
+    width: 11%;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
-.header-top, .header-bottom {
+.header-top, .header-bottom, table {
     width: 100%;
 }
 
@@ -52,9 +52,7 @@ h1 {
     font-size: 12px;
 }
 
-.marker {
-    background-color: yellow;
-}
+/* Minisezione Foto iniziali */
 
 .photocredits {
     font-size: 12px;
@@ -64,8 +62,57 @@ h1 {
 .top-photogallery {
     margin-top: 20px;
 }
+/* Stili testi principali */
 
-.paragraph {
+.marker {
+    background-color: yellow;
+}
+
+.paragraph, table {
      margin-top: 15px;
      margin-bottom: 15px;
+}
+
+/* Regole di stile della Table */
+
+thead, .caption {
+    color: white;
+    font-weight: bold;
+}
+.table-color, thead {
+    background-color: rgb(77, 172, 204);
+}
+
+.column1-2 {
+    width: 20%;
+}
+.column3 {
+    width: 60%;
+}
+
+/* Stili del footer  */
+
+footer > h4 {
+    color: grey;
+    font-weight: bold;
+}
+
+.photocard {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.caption {
+    padding: 25px;
+    font-size: 25px;
+}
+
+.img1 {
+    background-image: url(img/monitor.jpg);
+}
+
+.img2 {
+    background-image: url(img/graph.jpg);
 }
